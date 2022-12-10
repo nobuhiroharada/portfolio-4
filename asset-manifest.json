@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nobuhiroharada/portfolio-4/static/css/main.8776fd64.css",
+    "main.js": "/nobuhiroharada/portfolio-4/static/js/main.6162a728.js",
+    "static/media/topImage.png": "/nobuhiroharada/portfolio-4/static/media/topImage.bfeb11a00244e1aa110a.png",
+    "static/media/blog.png": "/nobuhiroharada/portfolio-4/static/media/blog.83eb12e0d24206eef90e.png",
+    "static/media/bboard.png": "/nobuhiroharada/portfolio-4/static/media/bboard.a30858833b0fa27d6324.png",
+    "static/media/btimer.png": "/nobuhiroharada/portfolio-4/static/media/btimer.b64c55045d2fcef53827.png",
+    "static/media/portfolio.png": "/nobuhiroharada/portfolio-4/static/media/portfolio.36614ec5b661ed34fea2.png",
+    "static/media/testimonial3.png": "/nobuhiroharada/portfolio-4/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/nobuhiroharada/portfolio-4/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/nobuhiroharada/portfolio-4/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/nobuhiroharada/portfolio-4/index.html",
+    "main.8776fd64.css.map": "/nobuhiroharada/portfolio-4/static/css/main.8776fd64.css.map",
+    "main.6162a728.js.map": "/nobuhiroharada/portfolio-4/static/js/main.6162a728.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8776fd64.css",
+    "static/js/main.6162a728.js"
+  ]
+}
