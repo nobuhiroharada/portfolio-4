@@ -1,0 +1,230 @@
+{
+  "header": {
+    "title": "Nobuhiro Harada",
+    "ja": "ja",
+    "en": "en",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "name": "Nobuhiro Harada",
+    "job_type": "Web Application Developer",
+    "introduction": "I'm a web application developer based in Tokyo, and I'm very passionate and dedicated to my work.",
+    "scrolldown": "Scroll Down"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My introduction",
+    "description": "Frontend & Backend developer, I create or maintenance web applications, I have years of experience and many clients are happy with the projects carried out.",
+    "experience": {
+      "title": "Experience",
+      "subtitle": "8 Years Working"
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "10+"
+    },
+    "residence": {
+      "title": "Residence",
+      "subtitle": "Tokyo"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "frontend": {
+      "title": "Frontend developer",
+      "html": {
+        "title": "HTML",
+        "level": "Advanced"
+      },
+      "bootstrap": {
+        "title": "Bootstrap",
+        "level": "Intermediate"
+      },
+      "css": {
+        "title": "CSS",
+        "level": "Intermediate"
+      },
+      "git": {
+        "title": "Git",
+        "level": "Intermediate"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "level": "Intermediate"
+      },
+      "react": {
+        "title": "React",
+        "level": "Basic"
+      }
+    },
+    "backend": {
+      "title": "Backend Developer",
+      "php": {
+        "title": "PHP",
+        "level": "Advanced"
+      },
+      "laravel": {
+        "title": "Laravel",
+        "level": "Advanced"
+      },
+      "cakephp": {
+        "title": "CakePHP",
+        "level": "Intermediate"
+      },
+      "mysql": {
+        "title": "MySQL",
+        "level": "Intermediate"
+      },
+      "sql": {
+        "title": "SQL",
+        "level": "Intermediate"
+      },
+      "python": {
+        "title": "Python",
+        "level": "Basic"
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I offer",
+    "view_more": "詳細",
+    "web_app_development": {
+      "title": "Web application\ndevelopment",
+      "title_pop": "Web application development",
+      "description": "I have developed more than 10 web applications, including my own products.",
+      "item_1": "I can develop Web application from scratch.",
+      "item_2": "I can develop web applications using Laravel, CakePHP, React, Vue.",
+      "item_3": "I can write test code.",
+      "item_4": "I can develop using Docker, MAMP, VirtualBox, Vagrant.",
+      "item_5": "I can develop using Mac, Windows.",
+      "item_6": "I can proceed with the project while consulting with team members about the progress of work and the details of tasks."
+    },
+    "web_app_mentenance": {
+      "title": "Web application\nmaintenance",
+      "title_pop": "Web application maintenance",
+      "description": "I have been in charge of operation and maintenance of web applications operated by more than 5 companies.",
+      "item_1": "If I don't have documentation or specs, I can figure out the specs from the program.",
+      "item_2": "I can write test code.",
+      "item_3": "I can operate and maintain using Docker, MAMP, VirtualBox, Vagrant.",
+      "item_4": "I can operate and maintain using Mac and Windows.",
+      "item_5": "I can proceed with the project while consulting with team members about the progress of work and the details of tasks."
+    },
+    "api_development_mentenance": {
+      "title": "API development, maintenance",
+      "description": "I have been in charge of development, operation and maintenance of APIs operated by more than 5 companies.",
+      "item_1": "I can develop API from scratch.",
+      "item_2": "If I don't have documentation or specs, I can figure out the specs from the program.",
+      "item_3": "I can write test code.",
+      "item_4": "I can develop and maintain using Docker, MAMP, VirtualBox, Vagrant.",
+      "item_5": "I can develop and maintain using Mac and Windows.",
+      "item_6": "I can proceed with the project while consulting with team members about the progress of work and the details of tasks."
+    }
+  },
+  "career": {
+    "title": "Career",
+    "subtitle": "My personal history",
+    "education": {
+      "title": "Education",
+      "item_4": {
+        "name": "Fundamental Information Technology Engineer Examination",
+        "place": "Tokyo",
+        "date": "2021"
+      },
+      "item_3": {
+        "name": "Information Technology Passport Examination",
+        "place": "Osaka",
+        "date": "2010"
+      },
+      "item_2": {
+        "name": "TOEIC 800",
+        "place": "Osaka",
+        "date": "2008"
+      },
+      "item_1": {
+        "name": "Kansai Gaikokugo Univ, Faculty of Foreign Languages",
+        "place": "Osaka",
+        "date": "2002-2006"
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "item_3": {
+        "name": "Web application development, mentenance",
+        "place": "Tokyo",
+        "date": " 2021 - Present"
+      },
+      "item_2": {
+        "name": "Web application development",
+        "place": "Tokyo",
+        "date": "2020-2021"
+      },
+      "item_1": {
+        "name": "Web application development, mentenance",
+        "place": "Tokyo",
+        "date": "2020"
+      }
+    }
+  },
+  "portfolios": {
+    "title": "Portfolios",
+    "subtitle": "Most recent work",
+    "link": "Link",
+    "categories": {
+      "category_all": {
+        "name": "All"
+      },
+      "category_web": {
+        "name": "Web"
+      },
+      "category_app": {
+        "name": "App"
+      }
+    },
+    "projects": {
+      "project_1": {
+        "id": 1,
+        "title": "Blog",
+        "category": "Web"
+      },
+      "project_2": {
+        "id": 2,
+        "title": "Portfolio",
+        "category": "Web"
+      },
+      "project_3": {
+        "id": 3,
+        "title": "iOS App",
+        "category": "App"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "My client says",
+    "subtitle": "testimonials",
+    "customer_1": {
+      "name": "John Doe",
+      "content": "A really good job, all aspects of the project were followed step by step and with good results."
+    },
+    "customer_2": {
+      "name": "Harry Clinton",
+      "content": "A really good job, all aspects of the project were followed step by step and with good results."
+    },
+    "customer_3": {
+      "name": "Sarah Cill",
+      "content": "A really good job, all aspects of the project were followed step by step and with good results."
+    }
+  },
+  "footer": {
+    "title": "Nobuhiro Harada",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials"
+  }
+}

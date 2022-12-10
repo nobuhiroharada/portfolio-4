@@ -1,0 +1,236 @@
+{
+  "header": {
+    "title": "原田 順啓",
+    "ja": "日本語",
+    "en": "英語",
+    "home": "ホーム",
+    "about": "自己紹介",
+    "skills": "スキル",
+    "services": "サービス",
+    "portfolio": "成果物",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "name": "原田 順啓",
+    "job_type": "Webアプリケーション開発者",
+    "introduction": "私はWebアプリケーション開発者として東京で活動しています。宜しくお願い致します。",
+    "scrolldown": "スクロールダウン"
+  },
+  "about": {
+    "title": "私について",
+    "subtitle": "自己紹介",
+    "description": "私はフルスタックエンジニアとして、多くのWebアプリケーションの開発、運用保守を携わってきました。",
+    "experience": {
+      "title": "経験年数",
+      "subtitle": "8年"
+    },
+    "projects": {
+      "title": "プロジェクト数",
+      "subtitle": "10以上"
+    },
+    "residence": {
+      "title": "居住地",
+      "subtitle": "東京"
+    }
+  },
+  "skills": {
+    "title": "スキル",
+    "subtitle": "私の技術レベル",
+    "frontend": {
+      "title": "フロントエンド開発",
+      "html": {
+        "title": "HTML",
+        "level": "上級者"
+      },
+      "bootstrap": {
+        "title": "Bootstrap",
+        "level": "中級者"
+      },
+      "css": {
+        "title": "CSS",
+        "level": "中級者"
+      },
+      "git": {
+        "title": "Git",
+        "level": "中級者"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "level": "中級者"
+      },
+      "react": {
+        "title": "React",
+        "level": "初級者"
+      }
+    },
+    "backend": {
+      "title": "バックエンド開発",
+      "php": {
+        "title": "PHP",
+        "level": "上級者"
+      },
+      "laravel": {
+        "title": "Laravel",
+        "level": "上級者"
+      },
+      "cakephp": {
+        "title": "CakePHP",
+        "level": "中級者"
+      },
+      "mysql": {
+        "title": "MySQL",
+        "level": "中級者"
+      },
+      "sql": {
+        "title": "SQL",
+        "level": "中級者"
+      },
+      "python": {
+        "title": "Python",
+        "level": "初級者"
+      }
+    }
+  },
+  "services": {
+    "title": "サービス",
+    "subtitle": "私が提供できること",
+    "view_more": "詳細",
+    "web_app_development": {
+      "title": "Webアプリケーション\n開発",
+      "title_pop": "Webアプリケーション開発",
+      "description": "自分で開発したプロダクトを含めて、10個以上のWebアプリケーションを開発してきました。",
+      "item_1": "私は0からWebアプリケーションを開発できます。",
+      "item_2": "私はLaravel, CakePHP, React, Vueを使ってWebアプリケーションを開発できます。",
+      "item_3": "私はテストコードを書くことができます。",
+      "item_4": "私はDocker, MAMP, VirtualBox, Vagrantを使って開発することができます。",
+      "item_5": "私はMac, Windowsを使って開発することができます。",
+      "item_6": "私はチームのメンバーと作業の進捗具合やタスクの内容について相談しながらプロジェクトを進めることができます。"
+    },
+    "web_app_mentenance": {
+      "title": "Webアプリケーション\n運用保守",
+      "title_pop": "Webアプリケーション運用保守",
+      "description": "私は5社以上の会社で運用されているWebアプリケーションの運用保守を担当してきました。",
+      "item_1": "私はドキュメント、仕様書がない場合、プログラムから仕様を把握することができます。",
+      "item_2": "私はテストコードを書くことができます。",
+      "item_3": "私はDocker, MAMP, VirtualBox, Vagrantを使って運用保守することができます。",
+      "item_4": "私はMac, Windowsを使って運用保守することができます。",
+      "item_5": "私はチームのメンバーと作業の進捗具合やタスクの内容について相談しながらプロジェクトを進めることができます。"
+    },
+    "api_development_mentenance": {
+      "title": "API開発、運用保守",
+      "description": "私は5社以上の会社で運用されているAPIの開発、運用保守を担当してきました。",
+      "item_1": "私は0からAPI開発ができます。",
+      "item_2": "私はLaravelを使ってAPI開発ができます。",
+      "item_3": "私はドキュメント、仕様書がない場合、プログラムから仕様を把握することができます。",
+      "item_4": "私はテストコードを書くことができます。",
+      "item_5": "私はDocker, MAMP, VirtualBox, Vagrantを使って開発、運用保守することができます。",
+      "item_6": "私はMac, Windowsを使って開発、運用保守することができます。",
+      "item_7": "私はチームのメンバーと作業の進捗具合やタスクの内容について相談しながらプロジェクトを進めることができます。"
+    }
+  },
+  "career": {
+    "title": "経歴",
+    "subtitle": "私の歴史",
+    "education": {
+      "title": "学歴",
+      "item_4": {
+        "name": "基本情報技術者",
+        "place": "東京",
+        "date": "2021"
+      },
+      "item_3": {
+        "name": "ITパスポート",
+        "place": "大阪",
+        "date": "2010"
+      },
+      "item_2": {
+        "name": "TOEIC 800",
+        "place": "大阪",
+        "date": "2008"
+      },
+      "item_1": {
+        "name": "関西外国語大学外国語学部英米語学科",
+        "place": "大阪",
+        "date": "2002-2006"
+      }
+    },
+    "experience": {
+      "title": "職歴",
+      "item_3": {
+        "name": "Webアプリ開発、運用保守",
+        "place": "東京",
+        "date": " 2021 - Present"
+      },
+      "item_2": {
+        "name": "Webアプリ開発",
+        "place": "東京",
+        "date": "2020-2021"
+      },
+      "item_1": {
+        "name": "Webアプリ開発、運用保守",
+        "place": "東京",
+        "date": "2020"
+      }
+    }
+  },
+  "portfolios": {
+    "title": "ポートフォリオ",
+    "subtitle": "制作物",
+    "link": "リンク",
+    "categories": {
+      "category_all": {
+        "name": "すべて"
+      },
+      "category_web": {
+        "name": "ウェブ"
+      },
+      "category_app": {
+        "name": "スマホアプリ"
+      }
+    },
+    "projects": {
+      "project_1": {
+        "id": 1,
+        "title": "ブログ",
+        "category": "ウェブ"
+      },
+      "project_2": {
+        "id": 2,
+        "title": "ポートフォリオ",
+        "category": "ウェブ"
+      },
+      "project_3": {
+        "id": 3,
+        "title": "iOS アプリ",
+        "category": "スマホアプリ"
+      },
+      "project_4": {
+        "id": 4,
+        "title": "iOS アプリ",
+        "category": "スマホアプリ"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "お客様の声",
+    "subtitle": "口コミ",
+    "customer_1": {
+      "name": "ジョン・ドゥー",
+      "content": "本当に良い仕事でした。プロジェクトのすべての側面が段階的に実行され、良い結果が得られました。"
+    },
+    "customer_2": {
+      "name": "ハリー・クリントン",
+      "content": "本当に良い仕事でした。プロジェクトのすべての側面が段階的に実行され、良い結果が得られました。"
+    },
+    "customer_3": {
+      "name": "サラ・シール",
+      "content": "本当に良い仕事でした。プロジェクトのすべての側面が段階的に実行され、良い結果が得られました。"
+    }
+  },
+  "footer": {
+    "title": "原田 順啓",
+    "about": "自己紹介",
+    "portfolio": "成果物",
+    "testimonials": "お客様の声"
+  }
+}
