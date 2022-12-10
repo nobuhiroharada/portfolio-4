@@ -1,3 +1,11 @@
+# Deploy
+
+### npm run deploy
+
+ブランチ gh-pages にデプロイする
+
+package.json、github pages を参照
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
