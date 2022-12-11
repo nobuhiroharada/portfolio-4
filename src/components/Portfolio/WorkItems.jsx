@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 
 const WorkItems = ({ item }) => {
@@ -14,7 +15,7 @@ const WorkItems = ({ item }) => {
         rel="noreferrer"
       >
         {t("portfolios.link")}
-        <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        <AiOutlineArrowRight className="work__button-icon" />
       </a>
     </div>
   );

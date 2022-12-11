@@ -1,4 +1,5 @@
 import React from "react";
+import { BiBadgeCheck } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
 
 const Backend = () => {
@@ -10,7 +11,7 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">{t("skills.backend.php.title")}</h3>
@@ -21,7 +22,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">
@@ -34,7 +35,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">
@@ -49,7 +50,7 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">
@@ -62,7 +63,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">{t("skills.backend.sql.title")}</h3>
@@ -73,7 +74,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiBadgeCheck className="badge-check" />
 
             <div>
               <h3 className="skills__name">

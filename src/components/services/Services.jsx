@@ -250,13 +250,6 @@ const Services = () => {
                     {t("services.api_development_mentenance.item_6")}
                   </p>
                 </li>
-
-                <li className="services__modal-service">
-                  ・
-                  <p className="services__modal-info">
-                    {t("services.api_development_mentenance.item_7")}
-                  </p>
-                </li>
               </ul>
             </div>
           </div>

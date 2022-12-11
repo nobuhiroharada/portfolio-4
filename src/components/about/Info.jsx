@@ -1,4 +1,5 @@
 import React from "react";
+import { BiAward, BiBriefcaseAlt, BiSupport } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
 
 const Info = () => {
@@ -7,7 +8,7 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <i className="bx bx-award about__icon"></i>
+        <BiAward className="about__icon" />
 
         <h3 className="about__title">{t("about.experience.title")}</h3>
         <span className="about__subtitle">
@@ -16,14 +17,14 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i className="bx bx-briefcase-alt about__icon"></i>
+        <BiBriefcaseAlt className="about__icon" />
 
         <h3 className="about__title">{t("about.projects.title")}</h3>
         <span className="about__subtitle">{t("about.projects.subtitle")}</span>
       </div>
 
       <div className="about__box">
-        <i className="bx bx-support about__icon"></i>
+        <BiSupport className="about__icon" />
 
         <h3 className="about__title">{t("about.residence.title")}</h3>
         <span className="about__subtitle">{t("about.residence.subtitle")}</span>

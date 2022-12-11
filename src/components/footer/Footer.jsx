@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -36,7 +37,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="bx bxl-facebook"></i>
+            <FaFacebookF />
           </a>
 
           <a
@@ -45,7 +46,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="bx bxl-github"></i>
+            <FaGithub />
           </a>
         </div>
 

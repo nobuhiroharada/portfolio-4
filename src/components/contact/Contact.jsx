@@ -1,5 +1,11 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
+import {
+  AiOutlineMail,
+  AiOutlineWhatsApp,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
+import { BsMessenger } from "react-icons/bs";
 import "./contact.css";
 
 const Contact = () => {
@@ -8,14 +14,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
-        form.current,
-        "vxDcl4UI2jbOQBn6f"
-      )
-      e.target.reset()
+    emailjs.sendForm(
+      "service_x1hewh5",
+      "template_2ki8hlo",
+      form.current,
+      "vxDcl4UI2jbOQBn6f"
+    );
+    e.target.reset();
   };
 
   return (
@@ -29,7 +34,7 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <AiOutlineMail className="contact__card-icon" />
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">user@gmail.com</span>
@@ -39,12 +44,12 @@ const Contact = () => {
                 className="contact__button"
               >
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <AiOutlineArrowRight className="contact__button-icon" />
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <AiOutlineWhatsApp className="contact__card-icon" />
 
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">999-888-777</span>
@@ -54,19 +59,19 @@ const Contact = () => {
                 className="contact__button"
               >
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <AiOutlineArrowRight className="contact__button-icon" />
               </a>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <BsMessenger className="contact__card-icon" />
 
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">user.fb123</span>
 
               <a href="https://m.me/crypticalcoder" className="contact__button">
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <AiOutlineArrowRight className="contact__button-icon" />
               </a>
             </div>
           </div>
