@@ -1,5 +1,6 @@
 import React from "react";
 import "./scrollup.css";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
@@ -10,7 +11,7 @@ const ScrollUp = () => {
   });
   return (
     <a href="#" className="scrollup">
-      <i className="uil uil-arrow-up scrollup__icon"></i>
+      <AiOutlineArrowUp className="scrollup__icon" />
     </a>
   );
 };

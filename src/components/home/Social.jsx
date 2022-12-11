@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillFacebook, AiFillGithub } from "react-icons/ai";
 
 const Social = () => {
   return (
@@ -9,7 +10,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-facebook"></i>
+        <AiFillFacebook size={"1.5rem"} />
       </a>
 
       <a
@@ -18,7 +19,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-github-alt"></i>
+        <AiFillGithub size={"1.5rem"} />
       </a>
     </div>
   );

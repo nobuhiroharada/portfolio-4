@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./qualification.css";
+import { SlGraduation } from "react-icons/sl";
+import { BiBriefcaseAlt2 } from "react-icons/bi";
+import { AiOutlineCalendar } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 
 const Qualification = () => {
@@ -26,7 +29,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon"></i>
+            <SlGraduation size={"1.3rem"} className="qualification__icon" />
             {t("career.education.title")}
           </div>
 
@@ -38,7 +41,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>
+            <BiBriefcaseAlt2 size={"1.3rem"} className="qualification__icon" />
             {t("career.experience.title")}
           </div>
         </div>
@@ -60,7 +63,7 @@ const Qualification = () => {
                   {t("career.education.item_4.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.education.item_4.date")}
                 </div>
               </div>
@@ -87,7 +90,7 @@ const Qualification = () => {
                   {t("career.education.item_3.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.education.item_3.date")}
                 </div>
               </div>
@@ -102,7 +105,7 @@ const Qualification = () => {
                   {t("career.education.item_2.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.education.item_2.date")}
                 </div>
               </div>
@@ -128,7 +131,7 @@ const Qualification = () => {
                   {t("career.education.item_1.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.education.item_1.date")}
                 </div>
               </div>
@@ -151,7 +154,7 @@ const Qualification = () => {
                   {t("career.experience.item_3.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.experience.item_3.date")}
                 </div>
               </div>
@@ -178,7 +181,7 @@ const Qualification = () => {
                   {t("career.experience.item_2.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.experience.item_2.date")}
                 </div>
               </div>
@@ -193,7 +196,7 @@ const Qualification = () => {
                   {t("career.experience.item_1.place")}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>{" "}
+                  <AiOutlineCalendar className="qualification__calender-icon" />
                   {t("career.experience.item_1.date")}
                 </div>
               </div>

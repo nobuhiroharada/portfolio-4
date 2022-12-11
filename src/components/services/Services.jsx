@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./services.css";
+import { MdOutlineWeb } from "react-icons/md";
+import { AiOutlineArrowRight } from "react-icons/ai";
+import { BiCodeAlt } from "react-icons/bi";
+import { FiEdit } from "react-icons/fi";
+import { FaTimes } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const Services = () => {
@@ -19,7 +24,7 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <MdOutlineWeb className="services__icon" />
             <h3 className="services__title">
               {t("services.web_app_development.title")}
             </h3>
@@ -27,7 +32,7 @@ const Services = () => {
 
           <span className="services__button" onClick={() => toggleTab(1)}>
             {t("services.view_more")}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            <AiOutlineArrowRight className="services__button-icon" />
           </span>
 
           <div
@@ -38,10 +43,10 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              <i
+              <FaTimes
+                className="services__modal-close"
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
+              />
 
               <h3 className="services__modal-title">
                 {t("services.web_app_development.title_pop")}
@@ -52,42 +57,42 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_1")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_2")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_3")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_4")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_5")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_development.item_6")}
                   </p>
@@ -99,7 +104,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <BiCodeAlt className="services__icon" />
             <h3 className="services__title">
               {t("services.web_app_mentenance.title")}
             </h3>
@@ -107,7 +112,7 @@ const Services = () => {
 
           <span onClick={() => toggleTab(2)} className="services__button">
             {t("services.view_more")}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            <AiOutlineArrowRight className="services__button-icon" />
           </span>
 
           <div
@@ -118,10 +123,10 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              <i
+              <FaTimes
+                className="services__modal-close"
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
+              />
 
               <h3 className="services__modal-title">
                 {t("services.web_app_mentenance.title_pop")}
@@ -132,35 +137,35 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_mentenance.item_1")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_mentenance.item_2")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_mentenance.item_3")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_mentenance.item_4")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.web_app_mentenance.item_5")}
                   </p>
@@ -172,7 +177,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <FiEdit className="services__icon" />
             <h3 className="services__title">
               {t("services.api_development_mentenance.title")}
             </h3>
@@ -180,7 +185,7 @@ const Services = () => {
 
           <span onClick={() => toggleTab(3)} className="services__button">
             {t("services.view_more")}
-            <i className="uil uil-arrow-right services__button-icon"></i>
+            <AiOutlineArrowRight className="services__button-icon" />
           </span>
 
           <div
@@ -191,10 +196,10 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              <i
+              <FaTimes
+                className="services__modal-close"
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
+              />
 
               <h3 className="services__modal-title">
                 {t("services.api_development_mentenance.title")}
@@ -205,49 +210,49 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_1")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_2")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_3")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_4")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_5")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_6")}
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  ・
                   <p className="services__modal-info">
                     {t("services.api_development_mentenance.item_7")}
                   </p>

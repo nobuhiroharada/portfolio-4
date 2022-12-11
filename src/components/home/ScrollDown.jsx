@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const ScrollDown = () => {
   const { t } = useTranslation();
@@ -9,7 +10,7 @@ const ScrollDown = () => {
         <svg
           width="32px"
           height="32px"
-          class="home__scroll-mouse"
+          className="home__scroll-mouse"
           viewBox="0 0 247 390"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,7 @@ const ScrollDown = () => {
           ></path>
         </svg>
         <span className="home__scroll-name">{t("home.scrolldown")}</span>
-        <i className="uil uil-arrow-down home__scroll-arrow"></i>
+        <AiOutlineArrowDown className="home__scroll-arrow" />
       </a>
     </div>
   );

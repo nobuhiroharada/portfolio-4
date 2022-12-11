@@ -1,5 +1,15 @@
 import React, { useState } from "react";
 import "./header.css";
+import {
+  AiOutlineAppstore,
+  AiOutlineHome,
+  AiOutlineUser,
+  AiOutlineFileText,
+  AiOutlineMessage,
+} from "react-icons/ai";
+import { BiBriefcaseAlt2 } from "react-icons/bi";
+import { HiOutlinePhotograph } from "react-icons/hi";
+import { FaTimes } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 
@@ -64,7 +74,8 @@ const Header = () => {
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-estate nav__icon"></i> {t("header.home")}
+                <AiOutlineHome size={"1.5rem"} className="nav__icon" />
+                {t("header.home")}
               </a>
             </li>
 
@@ -76,7 +87,8 @@ const Header = () => {
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-user nav__icon"></i> {t("header.about")}
+                <AiOutlineUser size={"1.5rem"} className="nav__icon" />
+                {t("header.about")}
               </a>
             </li>
 
@@ -90,7 +102,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i>{" "}
+                <AiOutlineFileText size={"1.5rem"} className="nav__icon" />
                 {t("header.skills")}
               </a>
             </li>
@@ -105,7 +117,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i>{" "}
+                <BiBriefcaseAlt2 size={"1.5rem"} className="nav__icon" />
                 {t("header.services")}
               </a>
             </li>
@@ -120,7 +132,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i>{" "}
+                <HiOutlinePhotograph size={"1.5rem"} className="nav__icon" />
                 {t("header.portfolio")}
               </a>
             </li>
@@ -135,20 +147,21 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-message nav__icon"></i>{" "}
+                <AiOutlineMessage size={"1.5rem"} />
                 {t("header.contact")}
               </a>
             </li> */}
           </ul>
 
-          <i
-            className="uil uil-times nav__close"
+          <FaTimes
+            size={"1.5rem"}
+            className="nav__close"
             onClick={() => showMenu(!Toggle)}
-          ></i>
+          />
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+          <AiOutlineAppstore size={"1.5rem"} />
         </div>
       </nav>
     </header>
